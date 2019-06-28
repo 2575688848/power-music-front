@@ -1,0 +1,22 @@
+.el-input__inner {
+  border-radius: 0;
+  border: 0;
+  background-color: #f5f5f5;
+}
+
+.el-button--primary {
+  border-radius: 0;
+  border: 0;
+  background: linear-gradient(to right top, #0094f5, #36d5f0) !important;
+  background: -ms-linear-gradient(right top, #0094f5, #36d5f0) !important;
+  background: -webkit-linear-gradient(left bottom, #0094f5, #36d5f0) !important;
+  background: -o-linear-gradient(right top, #0094f5, #36d5f0) !important;
+  background: -moz-linear-gradient(right top, #0094f5, #36d5f0) !important;
+}
+.el-button--primary:hover, el-button--primary:focus {
+  background: linear-gradient(to right top, #0094f5, #36d5f0) !important;
+  background: -ms-linear-gradient(right top, #0094f5, #36d5f0) !important;
+  background: -webkit-linear-gradient(left bottom, #0094f5, #36d5f0) !important;
+  background: -o-linear-gradient(right top, #0094f5, #36d5f0) !important;
+  background: -moz-linear-gradient(right top, #0094f5, #36d5f0) !important;
+}

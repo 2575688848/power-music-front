@@ -1,0 +1,62 @@
+
+.order-list-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-list-title-name {
+  padding-right: 30px;
+  border-right: 1px solid #e4e7ed;
+}
+.order-list-title-filter {
+  padding-left: 30px;
+  flex-grow: 1;
+}
+.order-nubmer {
+  line-height: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e4e7ed;
+}
+.order-datetime {
+  margin-left: 30px;
+  color: #e4e7ed;
+}
+.order-info-container {
+  padding: 20px 50px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  box-shadow: rgba(136, 136, 136, 0.6) 1px 1px 10px;
+}
+.order-info {
+  width: 100%;
+  margin-top: 20px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-image {
+  width: 180px;
+  height: 100px;
+}
+.course-info {
+  padding-left: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.course-info-price {
+  color: #37a7ff;
+}
+.order-pay-info {
+  padding-left: 30px;
+  border-left: 1px solid #e4e7ed;
+}
+.no-data {
+  padding-top: 20px;
+  text-align: center;
+  border-top: 1px solid #e4e7ed;
+}
+.hide {
+  display: none;
+}

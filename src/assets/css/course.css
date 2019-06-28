@@ -1,0 +1,65 @@
+.detail {
+  background-color: #eaf4fd;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.3);
+}
+.blue-bg {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right top, rgba(0,148,245,0.8), rgba(54,213,240,0.8)) !important;
+  background: -ms-linear-gradient(right top, rgba(0,148,245,0.8), rgba(54,213,240,0.8)) !important;
+  background: -webkit-linear-gradient(left bottom, rgba(0,148,245,0.8), rgba(54,213,240,0.8)) !important;
+  background: -o-linear-gradient(right top, rgba(0,148,245,0.8), rgba(54,213,240,0.8)) !important;
+  background: -moz-linear-gradient(right top, rgba(0,148,245,0.8), rgba(54,213,240,0.8)) !important;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.detail-pic {
+  height: 450px;
+  background: transparent no-repeat scroll center center;
+}
+.detail-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;;
+  align-items: center;
+  flex-direction: column;
+}
+.detail-content-text {
+  font-size: 40px;
+  color: #fff;
+}
+.detail-content-timer {
+  border-radius: 20px;
+  color: #4697eb;
+  background-color: rgba(255,255,255,0.7);
+  font-size: 12px;
+  padding: 5px 30px;
+}
+.course-play {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.detail-teacher-container {
+  height: 105px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+.detail-teacher-container img {
+  width: 60px;
+  height: 60px;
+}
+.detail-teacher-container span {
+  margin-left: 20px;
+  line-height: 60px;
+}
+.detail-info {
+  padding: 20px;
+}
+.detail-info button {
+  width: 100%;
+}

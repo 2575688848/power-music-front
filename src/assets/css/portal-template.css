@@ -1,0 +1,14 @@
+#portal-template {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portal-logo {
+  margin-bottom: 10px;
+}
+.submit-btn {
+  width: 300px;
+  height: 50px;
+}
