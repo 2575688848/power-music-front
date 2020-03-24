@@ -47,28 +47,17 @@ module.exports = {
 		historyApiFallback: true,
 		noInfo: true,
 		overlay: true,
-		port: '8081',
+		port: '8082',
 		proxy: {
 			'/api': {
-				target: 'http://localhost:8080/music/api/', //这里后台的地址模拟的;应该填写你们真实的后台接口
+				target: 'http://localhost:8081/music/api/', //这里后台的地址模拟的;应该填写你们真实的后台接口
 				ws: true,
 				changOrigin: true, //允许跨域
 				pathRewrite: {'^/api': ''}
 			}
 		}
 	},
-	/* proxyTable: {
-		'/api': {
-			target: 'http://localhost:8080/', //设置你调用的接口域名和端口号 别忘了加http
-			changeOrigin: true
-		}
-	}, */
-	/* 	proxy: {
-			'/api': {
-				target: 'http://localhost:8080/',
-				changeOrigin: true
-			}
-		}, */
+
 	performance: {
 		hints: false
 	},
@@ -77,7 +66,6 @@ module.exports = {
 
 if (process.env.NODE_ENV === 'production') {
 	module.exports.devtool = '#source-map'
-	// http://vue-loader.vuejs.org/en/workflow/production.html
 	module.exports.plugins = (module.exports.plugins || []).concat([
 		new webpack.DefinePlugin({
 			'process.env': {
